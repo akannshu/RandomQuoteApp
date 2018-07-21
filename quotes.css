@@ -1,11 +1,22 @@
+body{
+  background-color: #3b676d;
+}
+body img{
+  height: 270px;
+  width: 300px;
+  border-radius: 100% 100% 100% 100%;
+}
 #topic
 {
     text-align: center;
+    font-size: 70px;
+    margin-bottom: 6%;
+    color: orange;
 }
 
 #qbtn
 {
-    
+
     background-color: black;
     border: none;
     color: white;
@@ -16,7 +27,23 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    
+
+}
+
+#fbtn{
+    margin-left: 60px;
+    font-size: 20px;
+    background-color: pink;
+}
+#gbtn{
+  margin-left: 100px;
+  font-size: 20px;
+  background-color: pink;
+}
+#hbtn{
+    font-size: 20px;
+    margin-left: 90px;
+    background-color: pink;
 }
 
 #fuck
@@ -33,4 +60,14 @@
 #demo
 {
     text-align: center;
+}
+
+#duck{
+  display: flex;
+  flex-direction: row;
+}
+
+.clean{
+  margin-left: 120px;
+  margin-bottom: 50px;
 }
