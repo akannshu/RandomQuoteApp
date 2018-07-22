@@ -2,8 +2,8 @@ body{
   background-color: #3b676d;
 }
 body img{
-  height: 270px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
   border-radius: 100% 100% 100% 100%;
 }
 #topic
@@ -61,23 +61,22 @@ body img{
 {
     text-align: center;
 }
+
 #duck{
   display: flex;
-  flex-direction: row;
   flex-shrink: 1;
   flex-wrap: wrap;
   flex-grow: 1;
-  min-width: 1000px;
 }
 
 .clean{
-  margin-left: 120px;
+  margin-left: 10%;
   margin-bottom: 50px;
 }
 #global{
     display: flex;
     flex-shrink: 1;
-  flex-wrap: wrap;
-  flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
-  
