@@ -74,3 +74,10 @@ body img{
   margin-left: 120px;
   margin-bottom: 50px;
 }
+#global{
+    display: flex;
+    flex-shrink: 1;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+  
