@@ -67,7 +67,7 @@ body img{
   flex-shrink: 1;
   flex-wrap: wrap;
   flex-grow: 1;
-  min-width: 100px;
+  min-width: 1000px;
 }
 
 .clean{
