@@ -54,6 +54,7 @@ body img{
 #qclass
 {
     text-align: center;
+    max-width: inherit;
 }
 
 
