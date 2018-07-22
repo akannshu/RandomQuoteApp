@@ -61,7 +61,14 @@ body img{
 {
     text-align: center;
 }
-
+#duck{
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  min-width: 100px;
+}
 
 .clean{
   margin-left: 120px;
@@ -70,7 +77,6 @@ body img{
 #global{
     display: flex;
     flex-shrink: 1;
-    flex-direction: row;
   flex-wrap: wrap;
   flex-grow: 1;
 }
