@@ -22,17 +22,18 @@
 
 #fuck
 {
-    text-align: center;
+    align: center;
 }
 
 #qclass
 {
-    align: center;
+    text-align: center;
+    font-size: 40px;
 }
 
 
 #demo
 {
     text-align: center;
-    font-size: 40px;
+    
 }
