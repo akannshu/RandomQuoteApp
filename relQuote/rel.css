@@ -1,7 +1,7 @@
 #topic
 {
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 #qbtn
@@ -22,12 +22,15 @@
 
 #fuck
 {
-    padding-left: 600px;
+    margin-left: 0%;
+    text-align: center;
 }
 
 #qclass
 {
     text-align: center;
+    font-size: 40px;
+
 }
 
 
