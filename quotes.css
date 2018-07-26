@@ -2,15 +2,15 @@ body{
   background-color: #3b676d;
 }
 body img{
-  height: 270px;
-  width: 300px;;
+  height: 470px;
+  width: 500px;;
   border-radius: 100% 100% 100% 100%;
   margin-bottom: 40px;
 }
 #topic
 {
     text-align: center;
-    font-size: 70px;
+    font-size: 120px;
     margin-bottom: 6%;
     color: orange;
 }
@@ -32,20 +32,20 @@ body img{
 }
 
 #fbtn{
-    margin-left: 70px;
-    font-size: 20px;
+    margin-left: 80px;
+    font-size: 40px;
     background-color: pink;
     cursor: pointer;
 }
 #gbtn{
-  margin-left: 110px;
-  font-size: 20px;
+  margin-left: 150px;
+  font-size: 40px;
   background-color: pink;
   cursor: pointer;
 }
 #hbtn{
-    font-size: 20px;
-    margin-left: 90px;
+    font-size: 40px;
+    margin-left: 100px;
     background-color: pink;
     cursor: pointer;
 
