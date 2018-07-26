@@ -1,11 +1,146 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src = "quote.js"></script></head>
+        <script src = "quote.js"></script>
         <link href="quotes.css" type="text/css" rel="stylesheet"/>
+        </head>
 <body id="aajacolor">
 
 <h1 id="topic"> Random Quote Machine </h1>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 14</div>
+  <img src="https://4kwallpapers.co/wp-content/uploads/2015/10/w-clement-stone-quotes-4k-wallpapers.jpg" style="width:100%; height:400px;">
+  <div class="text">One</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 14</div>
+  <img src="http://quotesblog.net/wp-content/uploads/2015/10/inspirational-quotes-1.jpg" style="width:100%; height:400px;">
+  <div class="text">Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 14</div>
+  <img src="https://cdn.geckoandfly.com/wp-content/uploads/2013/11/big_e1af6ac372155c7877b60aa0e64aa1dbb35f4dbe.jpg" style="width:100%; height:400px;">
+  <div class="text">Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 14</div>
+  <img src="https://wallpaper-house.com/data/out/9/wallpaper2you_358949.jpg" style="width:100%; height:400px;">
+  <div class="text">Four</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 14</div>
+  <img src="http://www.magpiepaperworks.com/wp-content/uploads/2014/01/February-Background-Reverse.jpg" style="width:100%; height:400px;">
+  <div class="text">Five</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 14</div>
+  <img src="https://girisimle.com/wp-content/uploads/2015/12/Free-Desktop-Wallpaper-Full-HD-Motivational-Quote.jpg" style="width:100%; height:400px;">
+  <div class="text">Six</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 14</div>
+  <img src="http://diarioveaonline.com/wp-content/uploads/2018/06/good-nice-wallpapers-for-desktop-with-quotes-17.jpg" style="width:100%; height:400px;">
+  <div class="text">Seven</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 14</div>
+  <img src="https://www.gambar.co.id/wp-content/uploads/2018/04/wallpaper-quotes-skull-linux-hacker-wallpaper-hd-wallpapers-of-wallpaper-quotes.png" style="width:100%; height:400px;">
+  <div class="text">Eight</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 14</div>
+  <img src="https://www.walldevil.com/wallpapers/a79/wallpaper-christmas-wallpapers-beautiful-beauty-images.jpg" style="width:100%; height:400px;">
+  <div class="text">Nine</div>
+</div>
+
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 14</div>
+  <img src="http://www.hdnicewallpapers.com/Walls/Big/Thoughts%20and%20Quotes/Team_Work_Quote_By_Nelson_Mandela_HD_Wallpaper.jpg" style="width:100%; height:400px;">
+  <div class="text">Ten</div>
+</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">11 / 14</div>
+  <img src="http://s1.funon.cc/img/orig/201806/25/5b305bde9291a.jpg" style="width:100%; height:400px;">
+  <div class="text">Eleven</div>
+</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">12 / 14</div>
+  <img src="https://avante.biz/wp-content/uploads/Quotes-And-Backgrounds/Quotes-And-Backgrounds-001.jpg" style="width:100%; height:400px;">
+  <div class="text">Twelve</div>
+</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">13 / 14</div>
+  <img src="https://inspirationalquotess.net/wp-content/uploads/2018/02/inspirational-quotes-on-success-hd-best-of-801-best-cs-lewis-quotes-images-on-pinterest-of-inspirational-quotes-on-success-hd.jpg" style="width:100%; height:400px;">
+  <div class="text">Thirteen</div>
+</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">14 / 14</div>
+  <img src="https://wallpapercave.com/wp/rQecvUU.jpg" style="width:100%; height:400px;">
+  <div class="text">Fouteen</div>
+</div>
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
     <h3 style="text-align: center; font-size: 80px; margin-bottom:8%; color: lightgreen;">Select the genre you want</h3>
 <div id="global">
   <div id="duck">
