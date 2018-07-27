@@ -106,19 +106,21 @@ img {vertical-align: middle;}
     font-size: 40px;
     background-color: pink;
     cursor: pointer;
+    color: blue;
 }
 #gbtn{
   margin-left: 150px;
   font-size: 40px;
   background-color: pink;
   cursor: pointer;
+  color: blue;
 }
 #hbtn{
     font-size: 40px;
     margin-left: 100px;
     background-color: pink;
     cursor: pointer;
-
+    color: blue;
 }
 
 #fuck
@@ -155,4 +157,8 @@ img {vertical-align: middle;}
     flex-direction: row;
     flex-wrap: wrap;
     flex-grow: 1;
+    margin-bottom: 80px;
+}
+#hri{
+  margin-top: 120px;
 }
