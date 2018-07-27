@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+s<!DOCTYPE html>
 <html>
     <head>
         <script src = "quote.js"></script>
@@ -77,13 +77,11 @@
   <img src="http://s1.funon.cc/img/orig/201806/25/5b305bde9291a.jpg" style="width:100%; height:400px;">
   <div class="text">Eleven</div>
 </div>
-</div>
 
 <div class="mySlides fade">
   <div class="numbertext">12 / 14</div>
   <img src="https://avante.biz/wp-content/uploads/Quotes-And-Backgrounds/Quotes-And-Backgrounds-001.jpg" style="width:100%; height:400px;">
   <div class="text">Twelve</div>
-</div>
 </div>
 
 <div class="mySlides fade">
@@ -91,13 +89,11 @@
   <img src="https://inspirationalquotess.net/wp-content/uploads/2018/02/inspirational-quotes-on-success-hd-best-of-801-best-cs-lewis-quotes-images-on-pinterest-of-inspirational-quotes-on-success-hd.jpg" style="width:100%; height:400px;">
   <div class="text">Thirteen</div>
 </div>
-</div>
 
 <div class="mySlides fade">
   <div class="numbertext">14 / 14</div>
   <img src="https://wallpapercave.com/wp/rQecvUU.jpg" style="width:100%; height:400px;">
-  <div class="text">Fouteen</div>
-</div>
+  <div class="text">Fourteen</div>
 </div>
 
 <br>
@@ -118,28 +114,6 @@
   <span class="dot"></span>
   <span class="dot"></span>
 </div>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 3000); // Change image every 2 seconds
-}
-</script>
 
     <h3 style="text-align: center; font-size: 80px; margin-bottom:8%; color: lightgreen;">Select the genre you want</h3>
 <div id="global">
@@ -190,5 +164,32 @@ function showSlides() {
 
  </div>
 </div>
+
+<hr id="hri" color="black" size=15px; width=100% />
+
+<footer style="margin-top: 20px;">
+  <span style="display: inline-block;">
+    <h4 style="font-size: 30px; display: inline-block; margin-left:20px;">For more you can follow me on Github</h4>
+    <a href="https://github.com/akannshu">
+      <img style="height:60px; width:60px; margin-left:10px; border-radius: 100% 100% 100% 100%; display: inline-block;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHQcmGibzhPW0mrJd7-jhXm9Mr2xTY2-6MmKqwD3GvD1RiQ91d" />
+    </a>
+
+    <h4 style="font-size: 30px; display: inline-block; margin-left:20px;">Facebook</h4>
+    <a href="https://www.facebook.com/akanshu.raj">
+      <img style="height:60px; width:60px; margin-left:10px; border-radius: 100% 100% 100% 100%; display: inline-block;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFvmcdiZR6hms5kQFw6JbON73Owh7NTxE0rn_X0QmA-xYn7wtd" />
+    </a>
+
+    <h4 style="font-size: 30px; display: inline-block; margin-left:20px;">Instagram</h4>
+    <a href="https://www.instagram.com/akanshu_raj/">
+      <img style="height:60px; width:60px; margin-left:10px; border-radius: 100% 100% 100% 100%; display: inline-block;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHzMbGUTnMHcafzpYPLVW0lwdjYvNPZqolg_Lau3dHTu3D2Cjs" />
+    </a>
+  </span>
+  <h4 style="font-size: 30px; margin-left:20px;">Contact No: +91 8920836248</h4>
+</footer>
+
+<script>
+showSlides();
+</script>
+
 </body>
 </html>
