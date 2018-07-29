@@ -1,3 +1,22 @@
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+function qotday() {
+  window.open("qotd.html" , "_self");
+}
+
+function contact() {
+  window.open("contact.html" , "_self");
+}
+
+function login() {
+  window.open("my-login-master/index.html" , "_self");
+}
 
 function fitquote() {
   window.open("fitnessQuote/fq.html" ,"_self")
