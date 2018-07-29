@@ -22,3 +22,40 @@ var num = Math.floor(Math.random()*(colors.length));
    document.getElementById("aajacolor").style.backgroundColor = colors[num];
 
 }
+
+
+function liked(){
+  document.getElementById("laal").style.color = "red";
+  setTimeout(unliked, 200);
+}
+
+
+function unliked(){
+  if (confirm("Thank you for liking!")) {
+    document.getElementById("laal").style.color = "black";
+   }
+}
+
+function hola(){
+  alert("You have to login first!");
+}
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+function qotday() {
+  window.open("../qotd.html" , "_self");
+}
+
+function login() {
+  window.open("../my-login-master/index.html" , "_self");
+}
+
+function contact() {
+  window.open("../contact.html" , "_self");
+}
